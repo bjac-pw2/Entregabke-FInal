@@ -1,0 +1,28 @@
+#articulos{
+	display:inline-block;
+	float:left;
+	width:936px;
+	height:500px;
+}
+.articulo{
+	display:inline-block;
+	float:left;
+	width:350px;
+	height:459px;
+	margin:10px 50px;
+	font-family: Lato,sans-serif;
+}
+h5{
+	margin-top:5px;
+	font-size: 15px;
+	color:#099;
+}
+h3{
+	font-size: 15px;
+	color:#666;
+	margin-top:10px;
+}
+p{
+	font-family: Lato,sans-serif;
+	font-size:13px;
+}

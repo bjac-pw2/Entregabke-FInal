@@ -1,0 +1,23 @@
+#articulos{
+	display: inline-block;
+	float: left;
+	width: 896px;
+	height: 500px;
+	padding:0px 20px;
+}
+.art > h3{
+	font-family: Cambria,Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
+	text-align: left;
+	padding: 5px;
+	border-bottom: 1px solid #099;
+	margin-bottom: 5px;
+	color:#099;
+}
+.art > h5{
+	color: #666;
+	font-size:15px;
+}
+.art > p{
+	font-family: Lato,sans-serif;
+	font-size: 13px;
+}

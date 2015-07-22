@@ -1,0 +1,31 @@
+.tabla{
+	display: table;
+	width: 100%;
+	color: #666;
+	margin:10px 0px;
+}
+.tituloTabla{
+	display: table-caption;
+    text-align: center;
+    font-weight: bold;  
+    font-size: larger;
+    color: #70F6CC;
+	background-color: #099;
+	padding: 5px 0px;
+}
+.cabeza{
+	display: table-row;
+	font-weight: bold; 
+	text-align: center; 
+	color: #099;
+	background-color: #EFEFEF;
+}
+.row{
+	display: table-row;
+}
+.cell{
+	display: table-cell;
+	border:1px solid #099;
+	border-width: thin;
+	padding: 5px;
+}

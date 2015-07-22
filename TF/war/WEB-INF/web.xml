@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	
+	<servlet>
+		<servlet-name>hi</servlet-name>
+		<servlet-class>bjac.Proyecto_XServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>hi</servlet-name>
+		<url-pattern>/regMedic</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegMedicamento</servlet-name>
+		<servlet-class>servlet.registroMedicamento</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegMedicamento</servlet-name>
+		<url-pattern>/regMedicamento</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListMedicamento</servlet-name>
+		<servlet-class>servlet.listaMedicamento</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListMedicamento</servlet-name>
+		<url-pattern>/listaMedicamento</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegPaciente</servlet-name>
+		<servlet-class>servlet.regPaciente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegPaciente</servlet-name>
+		<url-pattern>/regPaciente</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListPaciente</servlet-name>
+		<servlet-class>servlet.listaPaciente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListPaciente</servlet-name>
+		<url-pattern>/listaPaciente</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegMedico</servlet-name>
+		<servlet-class>servlet.registroMedico</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegMedico</servlet-name>
+		<url-pattern>/regMedico</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListMedicos</servlet-name>
+		<servlet-class>servlet.listaMedico</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListMedicos</servlet-name>
+		<url-pattern>/listaMedico</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ListUsuarios</servlet-name>
+		<servlet-class>servlet.listaUsuarios</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListUsuarios</servlet-name>
+		<url-pattern>/listaUsuarios</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Validar</servlet-name>
+		<servlet-class>servlet.validaSesion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Validar</servlet-name>
+		<url-pattern>/validaSesion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Cerrar</servlet-name>
+		<servlet-class>servlet.cerrarSesion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Cerrar</servlet-name>
+		<url-pattern>/cerrarSesion</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>RegAdministrador</servlet-name>
+		<servlet-class>servlet.registroAdministrador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegAdministrador</servlet-name>
+		<url-pattern>/regAdministrador</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListAdministrador</servlet-name>
+		<servlet-class>servlet.listaAdministrador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListAdministrador</servlet-name>
+		<url-pattern>/listaAdministrador</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Controlador</servlet-name>
+		<servlet-class>servlet.controlJSP</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Controlador</servlet-name>
+		<url-pattern>/controlJSP</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Agregar Stock</servlet-name>
+		<servlet-class>servlet.agregarStock</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Agregar Stock</servlet-name>
+		<url-pattern>/stockMedicamento</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Modificar Password</servlet-name>
+		<servlet-class>servlet.modPassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Modificar Password</servlet-name>
+		<url-pattern>/modPassword</url-pattern>
+	</servlet-mapping>
+	
+	 <!--de horario -->
+	<servlet>
+		<servlet-name>Eliminar</servlet-name>
+		<servlet-class>servlet.Eleminar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Eliminar</servlet-name>
+		<url-pattern>/eliminar</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Save</servlet-name>
+		<servlet-class>servlet.guardarCita</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Save</servlet-name>
+		<url-pattern>/save</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Horarios</servlet-name>
+		<servlet-class>servlet.Horarios</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Horarios</servlet-name>
+		<url-pattern>/horarios</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>HoraDisponible</servlet-name>
+		<servlet-class>servlet.HoraDisponible</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HoraDisponible</servlet-name>
+		<url-pattern>/horaDisponible</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>MedicoDisponible</servlet-name>
+		<servlet-class>servlet.MedicoDisponible</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MedicoDisponible</servlet-name>
+		<url-pattern>/medicoDisponible</url-pattern>
+	</servlet-mapping>
+	<!-- Envio de correo -->
+	<servlet>
+		<servlet-name>Registrar</servlet-name>
+		<servlet-class>servlet.Registrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Registrar</servlet-name>
+		<url-pattern>/registrar</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>EnviarUsuario</servlet-name>
+		<servlet-class>servlet.enviarUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EnviarUsuario</servlet-name>
+		<url-pattern>/enviarUsuario</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>EnviarComentario</servlet-name>
+		<servlet-class>servlet.EnviarComentario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EnviarComentario</servlet-name>
+		<url-pattern>/enviarComentario</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>enviarPassword</servlet-name>
+		<servlet-class>servlet.enviarPassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>enviarPassword</servlet-name>
+		<url-pattern>/enviarPassword</url-pattern>
+	</servlet-mapping>
+	<!-- fin -->
+	<servlet>
+		<servlet-name>ControlAdministrador</servlet-name>
+		<servlet-class>servlet.cJAdmin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ControlAdministrador</servlet-name>
+		<url-pattern>/cJAdmin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ControlPaciente</servlet-name>
+		<servlet-class>servlet.cJPacient</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ControlPaciente</servlet-name>
+		<url-pattern>/cJPacient</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ControlMedico</servlet-name>
+		<servlet-class>servlet.cJMedic</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ControlMedico</servlet-name>
+		<url-pattern>/cJMedic</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListaFarmaceutico</servlet-name>
+		<servlet-class>servlet.listaFarmaceutico</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListaFarmaceutico</servlet-name>
+		<url-pattern>/listaFarmaceutico</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegFarmaceutico</servlet-name>
+		<servlet-class>servlet.registroFarmaceutico</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegFarmaceutico</servlet-name>
+		<url-pattern>/regFarmaceutico</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Inicio</servlet-name>
+		<servlet-class>servlet.login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Inicio</servlet-name>
+		<url-pattern>/inicio</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ControlFarmaceutico</servlet-name>
+		<servlet-class>servlet.cJFarma</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ControlFarmaceutico</servlet-name>
+		<url-pattern>/cJFarma</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ModificarEstado</servlet-name>
+		<servlet-class>servlet.estadoMedicamento</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ModificarEstado</servlet-name>
+		<url-pattern>/estadoMedicamento</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BloquearUsuario</servlet-name>
+		<servlet-class>servlet.bloquearUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BloquearUsuario</servlet-name>
+		<url-pattern>/bloquearUsuario</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Bloquear</servlet-name>
+		<servlet-class>servlet.bloquear</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Bloquear</servlet-name>
+		<url-pattern>/bloquear</url-pattern>
+	</servlet-mapping>
+	<!-- ultimos ttoques -->
+	<servlet>
+		<servlet-name>guardarReceta</servlet-name>
+		<servlet-class>servlet.guardarReceta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>guardarReceta</servlet-name>
+		<url-pattern>/guardarReceta</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>listaReceta</servlet-name>
+		<servlet-class>servlet.listaReceta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>listaReceta</servlet-name>
+		<url-pattern>/listaReceta</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>atender</servlet-name>
+		<servlet-class>servlet.atender</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>atender</servlet-name>
+		<url-pattern>/atender</url-pattern>
+	</servlet-mapping>
+	<!--  -->
+	
+	<!-- Registro y lista Asistente -->
+	
+	<servlet>
+		<servlet-name>ListaAsistente</servlet-name>
+		<servlet-class>servlet.listaAsistente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListaAsistente</servlet-name>
+		<url-pattern>/listaAsistente</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegAsistente</servlet-name>
+		<servlet-class>servlet.registroAsistente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegAsistente</servlet-name>
+		<url-pattern>/regAsistente</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Control Asistente</servlet-name>
+		<servlet-class>servlet.cJAsist</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Control Asistente</servlet-name>
+		<url-pattern>/cJAsist</url-pattern>
+	</servlet-mapping>
+	<!-- Ultimos tokes -->
+	<servlet>
+		<servlet-name>medDisExamen</servlet-name>
+		<servlet-class>servlet.medDisExamen</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>medDisExamen</servlet-name>
+		<url-pattern>/medDisExamen</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>guardarGeneradorExamen</servlet-name>
+		<servlet-class>servlet.guardarGeneradorExamen</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>guardarGeneradorExamen</servlet-name>
+		<url-pattern>/guardarGeneradorExamen</url-pattern>
+	</servlet-mapping>
+	<!--  -->
+	<!-- fin -->
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

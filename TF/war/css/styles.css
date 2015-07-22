@@ -1,0 +1,93 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	color: #066;
+}
+#cabecera{
+	width: 1260px;
+	height: 133px;
+	margin: 0px auto;
+	color:#099;
+}
+#cabecera-portada{
+	display: inline-block;
+	float: left;
+	width: 900px;
+	height: 113px;
+	padding-top: 20px;
+}
+#cabecera-titulo{
+	display: inline-block;
+	float: left;
+	width: 500px;
+	height: 113px;
+}
+h1{
+	text-shadow: 1px 1px 0px #3CC, 2px 2px 0px #3FC, 3px 3px 0px #3FF, 4px 4px 0px #3FC, 5px 5px 0px #3CC, 8px 8px 20px #0FF;
+	font-family: Verdana;
+}
+#like{
+	margin-left:20px;
+	width:400px;
+}
+#cabecera-aviso{
+	display: inline-block;
+	float: left;
+	margin-top: 15px;
+	width: 300px;
+	height: 93px;
+	text-align:center;
+	font-family: "Palatino", sans-serif;
+}
+#contenido{
+	width:1260px;
+	min-height:500px;
+	margin:10px auto;
+}
+#pie{
+	width:100%;
+	height:180px;
+	background:#EEE;
+	color:#666;
+	font-family: Lato,sans-serif;
+}
+#pieCenter{
+	width:1260px;
+	height:180px;
+	margin:0px auto;
+}
+#masInformacion{
+	width:1260px;
+	height:150px;
+}
+.menus{
+	display:inline-block;
+	float:left;
+	width:315px;
+	height:110px;
+	padding:20px 0px;
+}
+.menus h5{
+	margin:5px;
+	color:#003333;
+	font-size: 14px;
+}
+.menus ul li{
+	list-style:none;
+	margin-left:5px;
+	font-size: 13px;
+}
+.menus ul li a{
+	text-decoration:none;
+	color:gray;
+}
+#licencia{
+	width:1260px;
+	height:25px;
+	padding-top:5px;
+	border-top:1px solid #003333;
+	text-align: center;
+	font-size: 14px;
+}

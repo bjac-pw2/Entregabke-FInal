@@ -1,0 +1,17 @@
+.formCita{
+	width: 80px;
+}
+.confirmarHora{
+	padding: 5px 10px;
+	background-color: #099;
+	color: #666;
+	cursor: default;
+	font-size: 12px;
+}
+.confirmarHora:hover{
+	color: white;
+}
+.dis{
+	margin:5px;
+	min-height:70px;
+}

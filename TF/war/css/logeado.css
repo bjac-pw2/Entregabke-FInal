@@ -1,0 +1,40 @@
+#sesion{
+	display: inline-block;
+	float: right;
+	width: 349px;
+	height: 113px;
+	margin-top:7px;
+	padding: 5px;
+	text-align:left;
+	border-left:1px solid #099;
+}
+.tit{
+	color:#099;
+	padding:3px 5px; 
+	display: block;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.ll{
+	padding:3px 5px; 
+	border-top: 1px solid #099;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 17px;
+}
+.tt{
+	color: #033;
+}
+.tc{
+	color: #808080;
+}
+.salir{
+	border-style: none;
+	margin: 5px;
+	padding: 4px 5px;
+	background: #099;
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.salir:hover{
+	background-color: #CCFFFF;
+	color: #099;
+}

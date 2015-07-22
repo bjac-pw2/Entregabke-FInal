@@ -1,0 +1,43 @@
+#sesion{
+	display: inline-block;
+	float: left;
+	margin-top:20px;
+	width:350px;
+	height:113px;
+}
+.in{
+	border-style: none;
+	width: 110px;
+	height: 25px;
+	background-color: #CCFFFF;
+	padding: 0px 5px;
+	box-shadow: #099 0px 0px 5px inset;
+    color: #099;
+}
+.boton{
+	border-style: none;
+	margin: 5px;
+	padding: 4px 5px;
+	background: #099;
+	color: white;
+	box-shadow:#099 0px 2px 5px;
+}
+.boton:hover{
+	background-color: #CCFFFF;
+	color: #099;
+	box-shadow:#099 0px 0px 0px;
+}
+#registrar{
+	box-shadow:#F89500 0px 0px 5px;
+	background:#F89500;
+	color:white;
+}
+#registrar:hover{
+	background-color: #CCFFFF;
+	color: #099;
+	box-shadow:#099  0px 0px 0px;
+}
+
+#sesion form a{
+	text-decoration: none;
+}

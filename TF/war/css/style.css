@@ -1,0 +1,91 @@
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: purple;
+  background-color: #d8da3d;
+  margin:auto; 
+  }
+ul.index {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif; }
+ul.index li {
+  background: darkcyan;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em 
+   }
+ul.index a {
+  text-decoration: none;
+  font-family: Arial;
+  
+   }
+a:link {
+  color: #FFFFFF;
+   font-family: Arial;
+   }
+a:visited {
+  color: #000000; 
+  font-family: Arial;}
+.lf{
+	font-family: Helvetica;
+	color: #4B0082;
+	display:block;
+	}
+.regMedicamento, .regPaciente, .receta, .regMedico, .resExamen, .examen, .save{
+	border: 1px solid #CED5D7;
+	border-radius: 6px;
+	padding: 45px 45px 20px;
+	margin-top:50px;
+	background-color:white;
+	box-shadow:0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+}
+.regMedicamento input, .regPaciente input, .receta input, .regMedico input, .resExamen input , .examen input, .save input{
+	width: 220px;
+	padding: 5px 8px;
+	margin-bottom:15px;
+}
+.regMedicamento input[type='text'], .regMedicamento input[type='number'], .regMedicamento select, .regPaciente input[type='text'],
+ .regPaciente select, .receta input[type='text'], .receta textarea, .regMedico input[type='text'], .regMedico select,
+  .resExamen input[type='text'], .resExamen select, .resExamen textarea, .examen input[type='text'] , .examen select, .examen texarea, .save input[type='text']{
+    padding: 7px 6px;
+    width: 294px; 
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+.regMedicamento button[type='submit'], .regPaciente button[type='submit'], .receta button[type='submit'], .regMedico button[type='submit'],
+ .restExamen button[type='submit'], .examen button[type='submit'], .save button[type='submit']{
+    border: 1px solid #CED5D7;
+    box-shadow:0 0 0 3px #EEF5F7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+ 
+    background: #e4f1f6;
+    background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+}
+.regMedicamento button[type='submit']:hover , .regPaciente button[type='submit']:hover, .receta button[type='submit']:hover,
+.regMedico button[type='submit']:hover ,.restExamen button[type='submit']:hover, .examen button[type='submit']:hover, .save button[type='submit']:hover{
+    background: #edfcff;
+   }
+.regMedicamento button[type='submit']:active, .regPaciente button[type='submit']:active, .receta button[type='submit']:active,
+.regMedico button[type='submit']:active, .restExamen button[type='submit']:active, .examen button[type='submit']:active, .save button[type='submit']:active{
+    background: #cfe6ef;
+   
+}
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted; }

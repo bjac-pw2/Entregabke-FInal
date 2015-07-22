@@ -1,0 +1,45 @@
+.entrada{
+	border: 1px solid #099;
+	color: #099;
+	margin: 10px 0px;
+}
+.tituloEntrada{
+	height: 25px;
+	background: #099;
+	padding-top: 5px;
+	color:#70F6CC;
+	text-align: center;
+}
+.cuerpoEntrada{
+	padding: 20px 50px;
+	color: #666;
+}
+input{
+	border-style: none;
+	border: 1px solid #666;
+	padding: 3px;
+	margin: 3px;
+}
+input:focus{
+	border: 1px solid #099;
+}
+select{
+	color:#666;
+	background-color:#fff;
+	border: 1px solid #666;
+	padding: 3px;
+	margin: 3px;
+}
+.enviar{
+	border: none;
+	margin-top:5px;
+	padding:5px 10px;
+	background-color: #099; 
+}
+.enviar:hover{
+	color: #fff;
+}
+.lf{
+	display: block;
+	color:#033;
+}
